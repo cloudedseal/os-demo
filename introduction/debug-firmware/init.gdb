@@ -12,8 +12,8 @@ end
 
 # Connect to remote
 target remote localhost:1234
-print/x $ecx
 watch *0x7c00
 break *0x7c00
 layout asm
 continue
+print/x $ecx
